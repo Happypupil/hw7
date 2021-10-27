@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  top: 80px;
+  position: relative;
+  width: 70%;
+  height: 370px;
+  margin: 100px auto;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.text1 {
+  position: relative;
+  top: 70px;
+  left: 60px;
+  color: blanchedalmond;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text2 {
+  position: relative;
+  top: 110px;
+  left: 60px;
+  color: blanchedalmond;
+  font-family: "Montserrat", sans-serif;
+}
+
+.botton {
+  position: relative;
+  top: 140px;
+  left: 60px;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
+  height: 40px;
+  width: 140px;
+}
+
+button {
+  width: 140px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: aqua;
+  transition: 1s;
+}
+
+.rasm {
+  position: absolute;
+  top: -145px;
+  right: 30px;
+}
